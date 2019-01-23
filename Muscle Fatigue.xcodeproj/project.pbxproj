@@ -12,9 +12,13 @@
 		8E43E2F021F45124004093B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E43E2EE21F45124004093B9 /* Main.storyboard */; };
 		8E43E2F221F45124004093B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E43E2F121F45124004093B9 /* Assets.xcassets */; };
 		8E43E2F521F45124004093B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E43E2F321F45124004093B9 /* LaunchScreen.storyboard */; };
+		8E43E2FD21F45E25004093B9 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43E2FC21F45E25004093B9 /* MainTableViewController.swift */; };
+		8E43E2FF21F461E3004093B9 /* ScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43E2FE21F461E3004093B9 /* ScanTableViewController.swift */; };
+		DB35384CC9C51EA0D946CE96 /* Pods_Muscle_Fatigue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4364D002F295DC62CB8FDA6 /* Pods_Muscle_Fatigue.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D8CF7F4F2B7687FD617C38C /* Pods-Muscle Fatigue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muscle Fatigue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muscle Fatigue/Pods-Muscle Fatigue.debug.xcconfig"; sourceTree = "<group>"; };
 		8E43E2E721F45124004093B9 /* Muscle Fatigue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muscle Fatigue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E43E2EA21F45124004093B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E43E2EC21F45124004093B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		8E43E2F121F45124004093B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E43E2F421F45124004093B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E43E2F621F45124004093B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E43E2FC21F45E25004093B9 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		8E43E2FE21F461E3004093B9 /* ScanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanTableViewController.swift; sourceTree = "<group>"; };
+		BE8E421A4D179681CC9D0CD3 /* Pods-Muscle Fatigue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muscle Fatigue.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muscle Fatigue/Pods-Muscle Fatigue.release.xcconfig"; sourceTree = "<group>"; };
+		F4364D002F295DC62CB8FDA6 /* Pods_Muscle_Fatigue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muscle_Fatigue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB35384CC9C51EA0D946CE96 /* Pods_Muscle_Fatigue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				8E43E2E921F45124004093B9 /* Muscle Fatigue */,
 				8E43E2E821F45124004093B9 /* Products */,
+				F3D13A928752E4036A0B0CAC /* Pods */,
+				927785F87A0BF612488956BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +68,30 @@
 				8E43E2EA21F45124004093B9 /* AppDelegate.swift */,
 				8E43E2EC21F45124004093B9 /* ViewController.swift */,
 				8E43E2EE21F45124004093B9 /* Main.storyboard */,
+				8E43E2FC21F45E25004093B9 /* MainTableViewController.swift */,
+				8E43E2FE21F461E3004093B9 /* ScanTableViewController.swift */,
 				8E43E2F121F45124004093B9 /* Assets.xcassets */,
 				8E43E2F321F45124004093B9 /* LaunchScreen.storyboard */,
 				8E43E2F621F45124004093B9 /* Info.plist */,
 			);
 			path = "Muscle Fatigue";
+			sourceTree = "<group>";
+		};
+		927785F87A0BF612488956BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4364D002F295DC62CB8FDA6 /* Pods_Muscle_Fatigue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3D13A928752E4036A0B0CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D8CF7F4F2B7687FD617C38C /* Pods-Muscle Fatigue.debug.xcconfig */,
+				BE8E421A4D179681CC9D0CD3 /* Pods-Muscle Fatigue.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E43E2F921F45124004093B9 /* Build configuration list for PBXNativeTarget "Muscle Fatigue" */;
 			buildPhases = (
+				AB6AEEB82BE274C40A6A0132 /* [CP] Check Pods Manifest.lock */,
 				8E43E2E321F45124004093B9 /* Sources */,
 				8E43E2E421F45124004093B9 /* Frameworks */,
 				8E43E2E521F45124004093B9 /* Resources */,
+				D37E5BBCD6FF8BC822AFD4BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +162,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB6AEEB82BE274C40A6A0132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muscle Fatigue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37E5BBCD6FF8BC822AFD4BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Muscle Fatigue/Pods-Muscle Fatigue-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts-Swift/BoltsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MetaWear/MetaWear.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDFULibrary/iOSDFULibrary.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoltsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MetaWear.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDFULibrary.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muscle Fatigue/Pods-Muscle Fatigue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E43E2E321F45124004093B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E43E2FF21F461E3004093B9 /* ScanTableViewController.swift in Sources */,
 				8E43E2ED21F45124004093B9 /* ViewController.swift in Sources */,
+				8E43E2FD21F45E25004093B9 /* MainTableViewController.swift in Sources */,
 				8E43E2EB21F45124004093B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +369,7 @@
 		};
 		8E43E2FA21F45124004093B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8CF7F4F2B7687FD617C38C /* Pods-Muscle Fatigue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +388,7 @@
 		};
 		8E43E2FB21F45124004093B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8E421A4D179681CC9D0CD3 /* Pods-Muscle Fatigue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
